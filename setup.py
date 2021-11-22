@@ -37,5 +37,5 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
 
-    packages=['smartpy', 'smartpy.smartpy'],
+    packages=['smartpy'],
 )
