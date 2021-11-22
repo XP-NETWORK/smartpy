@@ -2,14 +2,10 @@
 
 from browser import alert, window
 
-import traceback
 import inspect
-import sys
 import datetime
 from types import FunctionType
 import json
-import os
-import smartpyio
 
 pyRange = range
 pyBool = bool
