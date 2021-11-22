@@ -1,5 +1,5 @@
 # Copyright (C) 2021  Xueming Zheng
-from setuptools import setup
+from setuptools import setup, __version__
 
 with open("README.md", "r") as fh:
     long_desc = fh.read()
@@ -37,5 +37,5 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
 
-    packages=['smartpy'],
+    packages=['smartpy', 'smartpy.smartpy'],
 )
