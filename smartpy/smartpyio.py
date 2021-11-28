@@ -1,6 +1,6 @@
 ## Copyright 2019-2020 Smart Chain Arena LLC. ##
 
-from browser import alert, window
+from .browser import alert, window
 import os
 
 window.activeScenario = None

@@ -1,6 +1,6 @@
 ## Copyright 2019-2020 Smart Chain Arena LLC. ##
 
-from browser import alert, window
+from .browser import alert, window
 
 import inspect
 import datetime
@@ -3092,7 +3092,7 @@ class utils:
 class io:
     @staticmethod
     def import_script_from_script(name, script):
-        import smartpyio
+        from . import smartpyio
         template = smartpyio.adaptBlocks(script)
         class Mod: pass
         module = Mod()
